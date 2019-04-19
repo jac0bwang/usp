@@ -1,0 +1,7 @@
+e makefile
+/NETLIBS
+s/-lsocket -lnsl//
+/client_r 
+s/client_r server_r //
+w
+q

@@ -1,0 +1,7 @@
+e makefile
+/COPS
+s/=/=-D_GNU_SOURCE
+/NETLIBS
+s/-lsocket //
+w
+q

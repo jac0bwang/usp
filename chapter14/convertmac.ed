@@ -1,0 +1,11 @@
+e makefile
+/RTLIB
+s/-lrt//
+w
+e getnamed.c
+/FLAGS
+a
+#define SEM_FAILED (sem_t *)-1
+.
+w
+q

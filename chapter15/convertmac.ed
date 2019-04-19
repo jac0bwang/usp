@@ -1,0 +1,8 @@
+e makefile
+/all
+c
+all:
+	echo "Mac OS X does not support any of the programs in Chapter 15."
+.
+w
+q

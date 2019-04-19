@@ -1,0 +1,17 @@
+e makefile
+/monitorpolltest
+s/monitorpolltest //
+w
+e whichisready.c
+/select.h
+i
+#include <fcntl.h>
+.
+w
+e waitfdtimed.c
+/select.h
+i
+#include <fcntl.h>
+.
+w
+q

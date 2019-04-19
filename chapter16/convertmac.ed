@@ -1,0 +1,11 @@
+e makefile
+/RTLIB
+s/-lrt//
+w
+e isregulartest.c
+/dirent
+i
+#include <stdlib.h>
+.
+w
+q

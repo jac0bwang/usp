@@ -1,0 +1,10 @@
+This file contains information about compiling the programs from Appendix B
+of UNIX Systems Programming.
+
+This chapter contains the restart library that is used in other chapters.
+
+There is nothing to compile here.
+
+If you run the programs on another system and need to make modifications to
+make them work, please send email to authors@usp.cs.utsa.edu to let us know
+what you did.

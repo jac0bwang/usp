@@ -1,0 +1,20 @@
+This file contains information about compiling the programs from Chapter 5
+of UNIX Systems Programming.
+
+Under Solaris: no changes needed.
+
+Under Linux:
+   Compiling the programs under Linux typically requires that the constant
+   _GNU_SOURCE be defined.  Run the convertlinux program once to modify the
+   makefile use this constant.
+
+Under Mac OS X: 
+   The dirent.h include file needs the stdlib.h include file.
+   Run the convertmac program to modify the following files to
+   include stdlib.h before dirent.h:
+   shownames.c, printaccesstest.c, printaccessmodtest.c, printaccessmodbadtest.c
+
+
+If you run the programs on another system and need to make modifications to
+make them work, please send email to authors@usp.cs.utsa.edu to let us know
+what you did.

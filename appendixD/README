@@ -1,0 +1,11 @@
+This file contains information about compiling the programs from Appendix D
+of UNIX Systems Programming.
+
+This chapter contains the local and remote logging libries that are used
+in other chapters.
+
+There is nothing to compile here.
+
+If you run the programs on another system and need to make modifications to
+make them work, please send email to authors@usp.cs.utsa.edu to let us know
+what you did.

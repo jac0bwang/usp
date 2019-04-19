@@ -1,0 +1,25 @@
+e shownames.c
+/dirent
+i
+#include <stdlib.h>
+.
+w
+e printaccesstest.c
+/dirent
+i
+#include <stdlib.h>
+.
+w
+e printaccessmodtest.c
+/dirent
+i
+#include <stdlib.h>
+.
+w
+e printaccessmodbadtest.c
+/dirent
+i
+#include <stdlib.h>
+.
+w
+q

@@ -1,0 +1,9 @@
+e makefile
+/COPS
+s/=/=-D_GNU_SOURCE
+/NETLIBS
+s/-lsocket //
+/client_r
+s/client_r server_r //
+w
+q

@@ -1,0 +1,1 @@
+int randsafe(double *ranp);
